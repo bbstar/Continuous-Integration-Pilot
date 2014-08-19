@@ -3,9 +3,9 @@
 struct point MakePoint(int x, int y)
 {
     struct point pt;
+    pt.y = y;
     pt.x = x;
     pt.y = y;
-    return pt;
 }
 
 void DrawPoint(struct point pt)
