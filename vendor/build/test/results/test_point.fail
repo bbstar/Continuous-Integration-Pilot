@@ -1,0 +1,21 @@
+---
+:source:
+  :path: test
+  :file: test_point.c
+:successes: []
+:failures:
+- :test: test_MakePoint_Returns_A_New_Point
+  :line: 16
+  :message: Expected 3 Was 134533268
+- :test: test_DrawPoint_Draws_Both_of_its_Coordinates
+  :line: 23
+  :message: Expected 3 Was -1077445944. Function 'Draw_Int' called with unexpected
+    value for argument 'cmock_arg1'.
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 0
+  :failed: 2
+  :ignored: 0
+:stdout:
+- ''
