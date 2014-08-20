@@ -2,8 +2,8 @@
 #define point_H
 
 struct point {
-int x;
-int y;
+    int x;
+    int y;
 };
  
 struct point MakePoint(int, int);
